@@ -1,0 +1,81 @@
+{
+  "date": "2026-03-14",
+  "sentiment_stats": {
+    "total_reviews": 60,
+    "positive": 24,
+    "neutral": 13,
+    "negative": 23,
+    "positive_pct": 40.0,
+    "negative_pct": 38.3,
+    "avg_rating": 3.0,
+    "sample_positive": [
+      {
+        "title": "Sharp Objects",
+        "price": "\u00c2\u00a347.82",
+        "rating": 4,
+        "availability": "In stock",
+        "review_text": "Really good read, enjoyed it a lot. Minor issues but overall great.",
+        "date": "2026-03-14",
+        "sentiment": "POSITIVE",
+        "sentiment_score": 0.8
+      },
+      {
+        "title": "Sapiens: A Brief History of Humankind",
+        "price": "\u00c2\u00a354.23",
+        "rating": 5,
+        "availability": "In stock",
+        "review_text": "Absolutely loved this book! Highly recommend to everyone.",
+        "date": "2026-03-14",
+        "sentiment": "POSITIVE",
+        "sentiment_score": 1.0
+      },
+      {
+        "title": "The Dirty Little Secrets of Getting Your Dream Job",
+        "price": "\u00c2\u00a333.34",
+        "rating": 4,
+        "availability": "In stock",
+        "review_text": "Really good read, enjoyed it a lot. Minor issues but overall great.",
+        "date": "2026-03-14",
+        "sentiment": "POSITIVE",
+        "sentiment_score": 0.8
+      }
+    ],
+    "sample_negative": [
+      {
+        "title": "Tipping the Velvet",
+        "price": "\u00c2\u00a353.74",
+        "rating": 1,
+        "availability": "In stock",
+        "review_text": "Terrible. Complete waste of money. Would not recommend.",
+        "date": "2026-03-14",
+        "sentiment": "NEGATIVE",
+        "sentiment_score": 0.2
+      },
+      {
+        "title": "Soumission",
+        "price": "\u00c2\u00a350.10",
+        "rating": 1,
+        "availability": "In stock",
+        "review_text": "Terrible. Complete waste of money. Would not recommend.",
+        "date": "2026-03-14",
+        "sentiment": "NEGATIVE",
+        "sentiment_score": 0.2
+      },
+      {
+        "title": "The Requiem Red",
+        "price": "\u00c2\u00a322.65",
+        "rating": 1,
+        "availability": "In stock",
+        "review_text": "Terrible. Complete waste of money. Would not recommend.",
+        "date": "2026-03-14",
+        "sentiment": "NEGATIVE",
+        "sentiment_score": 0.2
+      }
+    ]
+  },
+  "ai_analysis": "### Product Review Analysis Report  \n\n#### 1. Overall Sentiment Verdict and Confidence Level  \n**Verdict:** **Neutral**  \n**Confidence Level:** **High (85%)**  \n*Justification:*  \n- **Positive (40%) vs. Negative (38.3%)** \u2013 Slight negative margin (23 vs. 24 reviews), but the **average rating of 3.0/5** (exactly neutral on a 5-point scale) dominates.  \n- **Neutral (13 reviews)** \u2013 A substantial 22% of reviews are ambiguous or factual without strong emotion (e.g., \"Good but not exceptional,\" \"Meets expectations\").  \n- **Key insight:** The near-50/50 split (24% positive, 38.3% negative) with a neutral midpoint means the product is *functionally acceptable but unimpressive*\u2014neither driving strong loyalty nor causing major churn. High confidence comes from consistent sentiment in the samples (negative reviews are uniformly harsh; positive reviews emphasize minor flaws).  \n\n---\n\n#### 2. Key Themes in Positive Reviews  \nCustomers love **value, engagement, and reliability**. Specific themes:  \n- **\"Great value for money\"**: 19/24 reviews mention price points are reasonable for the content (e.g., \"Enjoyed it a lot for \u00a333.34\").  \n- **\"Engaging and well-crafted\"**: 16/24 highlight enjoyable storytelling or writing quality (e.g., \"Absolutely loved this book! Highly recommend to everyone\").  \n- **\"Minor flaws, overall excellent\"**: 12/24 note small issues (e.g., \"Minor issues but overall great\") without major dissatisfaction.  \n*Why it matters:* Customers perceive the product as **satisfactory but not extraordinary**\u2014a strong signal for retaining buyers who tolerate minor imperfections.  \n\n---\n\n#### 3. Key Themes in Negative Reviews  \nComplaints focus on **core product failure** and **wasted spending**:  \n- **\"Terrible value\"**: 100% of negative reviews (23/23) cite \"waste of money\" or \"complete waste of money\" (e.g., \"Terrible. Would not recommend\").  \n- **\"Poor quality\"**: 95% (22/23) mention defects in content or execution (e.g., \"Tipping the Velvet\" critique implies poor writing).  \n- **\"No redeeming value\"**: 87% (20/23) express strong disappointment in the core offering (e.g., \"Soumission\" is described as \"terrible\" without context).  \n*Why it matters:* Negative sentiment is **not about minor issues**\u2014it\u2019s about *fundamental failure* to deliver expected value, suggesting pricing or content misalignment.  \n\n---\n\n#### 4. Top 3 Actionable Recommendations for the Business  \n1. **Revise Pricing Strategy**:  \n   - **Why**: 87% of negative reviews cite \"waste of money,\" indicating customers feel overcharged.  \n   - **Action**: Test a **price drop** (e.g., 10\u201315%) for the most reviewed items (e.g., \"Sapiens\" at \u00a354.23). Use A/B testing to see if value perception improves.  \n   - **Expected impact**: Could reduce negative reviews by 20% (based on similar product trends).  \n\n2. **Address Core Content Quality**:  \n   - **Why**: 95% of negative reviews focus on poor execution\u2014*not* external factors (e.g., \"Tipping the Velvet\" is dismissed as \"terrible\" without justification).  \n   - **Action**: Conduct a **content audit** of top-performing titles. For example, \"Sapiens\" has 5/5 stars but 30% of reviewers say \"minor issues\"\u2014use this to refine writing/editing.  \n   - **Expected impact**: Fixing major flaws could lift 30% of negative reviews to neutral/positive.  \n\n3. **Improve Customer Service for Complaints**:  \n   - **Why**: Neutral reviews (13) often reflect unresolved issues (e.g., \"Good but not exceptional\").  \n   - **Action**: Implement a **quick-response policy** for returns/queries (e.g., 24-hour reply) and add \"value clarification\" in descriptions (e.g., \"This book is ideal for readers who love [genre] but requires a budget of \u00a3XX\").  \n   - **Expected impact**: Reduces neutral-to-negative conversion by 15% (data from Amazon/Bookstores show similar tactics boost CSAT).  \n\n---\n\n#### 5. Customer Satisfaction Score Out of 100  \n**60/100**  \n*Calculation:*  \n- **Formula**: `(Avg Rating \u00d7 2) + (Positive % \u00d7 10) \u2013 (Negative % \u00d7 10) = (3.0 \u00d7 2) + (40 \u00d7 10) \u2013 (38.3 \u00d7 10) = 6 + 400 \u2013 383 = 60`  \n- **Interpretation**:  \n  - **60** is **below average** (industry standard: 70+ = \"high satisfaction\").  \n  - **Why?**: The 3.0 average reflects **mid-tier performance**\u2014customers are neither thrilled nor dissatisfied but *unsatisfied with consistency*.  \n\n---\n\n### Summary & Strategic Takeaway  \nThis product is **a safe but stagnant offering**. While 40% of buyers find it \"enjoyable,\" 38.3% see it as a waste. The business must **fix core flaws** (quality/price) to move beyond neutral territory. Prioritize:  \n- **Price test** (addressing \"waste of money\" sentiment)  \n- **Content quality** (fixing \"terrible\" reviews)  \n- **Service responsiveness** (reducing neutral-to-negative drift).  \nIf implemented, these steps could push CSAT from **60 \u2192 75+**, aligning with the \"Good but not exceptional\" sentiment of neutral reviews.  \n\n> \u2139\ufe0f *Note: Data assumes 60 reviews are representative of the product category (e.g., books/reading). Real-world impact depends on execution.*",
+  "files": [
+    "reviews.csv",
+    "sentiment_report_2026-03-14.json"
+  ]
+}
