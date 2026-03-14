@@ -6,55 +6,68 @@ web scraping with local LLM analysis using Ollama.
 ## Projects
 
 ### Job Market Analyzer
-- Scrapes 50+ real remote jobs from RemoteOK
-- LLM analyzes market trends and in-demand skills
-- Output: jobs.json, jobs.csv
+A real-time scraper that fetches remote job listings and uses an AI to analyze market trends and prioritize in-demand technical skills.
+- **Source**: RemoteOK API
+- **AI Analysis**: Identifies top roles, salary expectations, and skill frequencies.
+- **Output**: `jobs.json`, `jobs.csv`
+
+![Job Market Analyzer](assets/job_market.png)
 
 ### News Scraper + AI Summarizer  
-- Scrapes BBC Technology and Business headlines
-- LLM summarizes top stories and key trends
-- Output: news_report.json
+Automated news harvester that scans major technology and business feeds, followed by an AI-driven summary of the day's most critical stories.
+- **Source**: BBC RSS Feeds
+- **AI Analysis**: Bullet-point insights on global tech/business landscape and trend detection.
+- **Output**: `news_report.json`
+
+![News Summarizer](assets/news_summarizer.png)
 
 ### Price Tracker + Deal Finder
-- Scrapes 60 products with daily price tracking
-- Detects price changes over time
-- LLM recommends best deals to buy
-- Output: prices.csv, price_report.json
+Price monitoring engine that tracks dozens of products daily, detecting price fluctuations and using AI to recommend the absolute best value for money.
+- **Source**: Web Scraping (E-commerce)
+- **AI Analysis**: Smart deal recommendations based on price drops and product ratings.
+- **Output**: `prices.csv`, `price_report.json`
+
+![Price Tracker](assets/price_tracker.png)
 
 ### Review Sentiment Analyzer
-- Scrapes 60 product reviews
-- Scores sentiment (Positive/Neutral/Negative)
-- LLM gives customer satisfaction score + recommendations
-- Output: reviews.csv, sentiment_report.json
+Customer feedback processor that scrapes product reviews and executes deep sentiment scoring to provide a holistic "Customer Satisfaction Score".
+- **Source**: Web Scraping (Reviews)
+- **AI Analysis**: Positive/Negative theme detection and actionable business recommendations.
+- **Output**: `reviews.csv`, `sentiment_report.json`
+
+![Review Sentiment Analyzer](assets/sentiment_analyzer.png)
 
 ### Master Pipeline
-- Orchestrates all four scraping modules
-- Consolidates data from jobs, news, prices, and reviews
-- Generates a "Whole Day Summary" using local LLM
-- Output: master_summary.json
+The control center of the portfolio. It orchestrates all four scraping modules, consolidates their findings, and generates a unified "Whole Day Summary" using the local LLM.
+- **Function**: Running full end-to-end automation across all sectors.
+- **Output**: `master_summary.json`
 
 ## Tech Stack
-- Python 3.14
-- BeautifulSoup, Requests
-- Pandas
-- Ollama (local LLM — llama3.2)
-- JSON + CSV outputs
+- **Languages**: Python 3.14
+- **Libraries**: BeautifulSoup, Requests, Pandas, LXML
+- **AI Engine**: Ollama (local LLM execution)
+- **Data Formats**: JSON, CSV
 
 ## How to Run
 ```bash
+# Set up environment
 python3 -m venv venv
 source venv/bin/activate
 pip install requests beautifulsoup4 pandas lxml
+
+# Run individual scripts
 python3 job_market_analyzer/job_pipeline.py
 python3 news_summarizer/news_scraper.py
 python3 price_tracker/price_tracker.py
 python3 review_sentiment_analyzer/review_analyzer.py
+
+# Run full master pipeline
 python3 master_pipeline/master_pipeline.py
 ```
 
 ## Skills Demonstrated
-- Web scraping static + dynamic sites
-- Data cleaning and structured output
-- Local LLM integration (Ollama)
-- End-to-end AI pipelines
-- JSON + CSV data delivery
+- Web scraping (Static & Dynamic structures)
+- Data cleaning and structured CSV/JSON delivery
+- Local AI integration (Large Language Models)
+- System orchestration and automation
+- Professional documentation and reporting
